@@ -10,11 +10,12 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  /*background: linear-gradient(
     108deg,
     rgba(1, 147, 86, 1) 0%,
     rgba(10, 201, 122, 1) 100%
-  );
+  );*/
 `;
 
 export const FormWrap = styled.div`
@@ -71,14 +72,41 @@ export const Form = styled.form`
 `;
 
 export const FormH1 = styled.h1`
-  margin-bottom: 40px;
-  color: #fff;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+  color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto 50px; /*Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
 `;
 
 export const FormLabel = styled.label`
+  margin-top: 8px;
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;
@@ -86,14 +114,32 @@ export const FormLabel = styled.label`
 
 export const FormInput = styled.input`
   padding: 16px 16px;
-  margin-bottom: 32px;
-  border: none;
-  border-radius: 4px;
+  width: 175px;
+  height: 25px;
+  color: white;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid #008000;
+  transition: 0.3s;
+  margin-bottom: 25px;
+
+  &:hover {
+    width: 200px;
+    border-bottom: 2px solid #00ff00;
+  }
+
+  &:focus {
+    width: 200px;
+    border-bottom: 2px solid #00ff00;
+    outline: none;
+  }
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
-  padding: 16px 0;
+  //background: #01bf71;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding: 15px 0;
+  margin: 40px 20px 0;
   border: none;
   border-radius: 4px;
   color: #fff;
