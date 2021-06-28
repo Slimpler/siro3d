@@ -42,33 +42,33 @@ const Footer = () => {
               Siro 3D &copy; {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='//www.facebook.com/'
                 target='_blank'
                 aria-label='Facebook'
               >
-            {/*     <FaFacebook />
-              </SocialIconLink>
+                 <FaFacebook />
+              </SocialIconLink> */}
               <SocialIconLink
                 href='https://www.instagram.com/siro.3d/'
                 target='_blank'
                 aria-label='Instagram'
-              > */}
+              > 
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='//www.youtube.com/'
                 target='_blank'
                 aria-label='Youtube'
               >
-           {/*      <FaYoutube />
-              </SocialIconLink>
+                <FaYoutube />
+              </SocialIconLink> */}
               <SocialIconLink
-                href='//www.twitter.com'
+                href='https://twitter.com/d_siro3?lang=es'
                 target='_blank'
                 aria-label='Twitter'
-              > */}
-               {/*  <FaTwitter /> */}
+              > 
+                <FaTwitter /> 
               </SocialIconLink>
               <SocialIconLink
                 href='https://es.linkedin.com/in/carlos-flores-zamora-73720a166'

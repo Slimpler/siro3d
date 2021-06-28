@@ -28,13 +28,13 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to='Productos' onClick={toggle}>
             Productos
           </SidebarLink>
-          <SidebarLink to='signip' onClick={toggle}>
+          <SidebarLink to='Impresora' onClick={toggle}>
             Impresora
           </SidebarLink>
         </SidebarMenu>
-        <SidebtnWrap>
+       {/*  <SidebtnWrap>
           <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-        </SidebtnWrap>
+        </SidebtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );
