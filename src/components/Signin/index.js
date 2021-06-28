@@ -18,7 +18,7 @@ const Signin = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'> dolla </Icon>
+          <Icon to='/'> Siro 3D </Icon>
           <FormContent>
             <Form action='#'>
               <FormH1>&gt; Sign in to your Account</FormH1>

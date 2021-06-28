@@ -28,14 +28,13 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
+        <HeroH1>Siro Impresión 3D</HeroH1>
         <HeroP>
-          Sign up for a new account today and recieve $250 in credit towards
-          your next payment.
+          La impresión del futuro, ahora y en tus manos
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+            to='nosotros'
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary='true'
@@ -46,7 +45,7 @@ const HeroSection = () => {
             exact='true'
             offset={-80}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrorRight />}
+            Empecemos {hover ? <ArrowForward /> : <ArrorRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

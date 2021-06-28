@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              dolla
+              Siro 3D
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -48,56 +48,56 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to='about'
+                  to='Nosotros'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  About
+                  Nosotros
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='discover'
+                  to='Aula Maker'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Discover
+                  Aula Maker
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                  to='Productos'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Services
+                  Productos
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='signup'
+                  to='Impresora'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Sign Up
+                  Impresora
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
+         {/*    <NavBtn>
               <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
