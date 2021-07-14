@@ -32,9 +32,6 @@ const Sidebar = ({ isOpen, toggle }) => {
             Impresora
           </SidebarLink>
         </SidebarMenu>
-       {/*  <SidebtnWrap>
-          <SidebarRoute to='/signin'>Sign In</SidebarRoute>
-        </SidebtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );

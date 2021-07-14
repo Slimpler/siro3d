@@ -11,8 +11,9 @@ import {
   HeroH1,
   HeroP,
   HeroBtnWrapper,
-  ArrowForward,
-  ArrorRight,
+  BtnLink,
+/*   ArrowForward,
+  ArrorRight, */
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -33,20 +34,7 @@ const HeroSection = () => {
           La impresión del futuro, ahora y en tus manos
         </HeroP>
         <HeroBtnWrapper>
-          <Button
-            to='nosotros'
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary='true'
-            dark='true'
-            smooth={true}
-            duration={1000}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Empecemos {hover ? <ArrowForward /> : <ArrorRight />}
-          </Button>
+          <BtnLink to="/equipo">Conocenos</BtnLink>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
