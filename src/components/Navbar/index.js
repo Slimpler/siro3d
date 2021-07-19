@@ -94,6 +94,9 @@ const Navbar = ({ toggle }) => {
                   Impresora
                 </NavLinks>
               </NavItem>
+              <NavBtn>
+                <NavBtnLink to="/entrar">Entrar</NavBtnLink>
+              </NavBtn>
             </NavMenu>
           </NavbarContainer>
         </Nav>

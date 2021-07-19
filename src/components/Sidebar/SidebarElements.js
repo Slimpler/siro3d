@@ -18,6 +18,11 @@ export const SidebarContainer = styled.aside`
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
+export const SideBtnWrap = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const CloseIcon = styled(FaTimes)`
   color: #fff;
 `;

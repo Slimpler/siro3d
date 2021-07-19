@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
+
 import Video from '../../videos/video.mp4';
-import img from '../../images/carlos.png';
+
 
 import {
   EquipoContainer,
   EquipoBg,
   VideoBg,
   EquipoContent,
-  EquipoH1,
+ /*  EquipoH1,
   EquipoP,
   EquipoBtnWrapper,
   EquipoBtnLink,
-  EquipoCard,
-/*   ArrowForward,
-  ArrorRight, */
+  ArrowForward,
+  ArrorRight,  */
 } from './equipoElements';
 
 const Equipo = () => {
@@ -25,18 +25,12 @@ const Equipo = () => {
 
   return (
     <EquipoContainer id='home'>
-        <EquipoCard>
-            <img src={img}/>
-    
-        </EquipoCard>
-        <EquipoCard>
-            <img src={img}/>
-
-        </EquipoCard>
-        <EquipoCard>
-            <img src={img}/>
-            
-        </EquipoCard>
+      <EquipoBg>
+        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+      </EquipoBg>
+      <EquipoContent>
+        
+      </EquipoContent>
     </EquipoContainer>
   );
 };

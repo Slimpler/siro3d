@@ -7,7 +7,7 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  SidebtnWrap,
+  SideBtnWrap,
   SidebarRoute,
 } from './SidebarElements';
 
@@ -31,6 +31,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to='Impresora' onClick={toggle}>
             Impresora
           </SidebarLink>
+          <SideBtnWrap>
+           <SidebarRoute to="/entrar">Entrar</SidebarRoute>
+        </SideBtnWrap>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

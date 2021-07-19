@@ -7,12 +7,12 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  MobileIcon,
+/*   MobileIcon,
   NavMenu,
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
+  NavBtnLink, */
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
