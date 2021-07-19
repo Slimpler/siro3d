@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Video from '../../videos/video.mp4';
+import Video from '../videos/video.mp4';
 
 
 import {
@@ -26,7 +26,7 @@ const Equipo = () => {
   return (
     <EquipoContainer id='home'>
       <EquipoBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        
       </EquipoBg>
       <EquipoContent>
         

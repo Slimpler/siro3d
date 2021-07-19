@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import Equipo from '../components/Equipo';
+import Equipo from '../Equipo';
 import Footer from '../components/Footer';
-import Sidebar from '../components/EquipoSidebar';
-import Navbar from '../components/EquipoNavbar';
+import Sidebar from '../Equipo/EquipoSidebar';
+import Navbar from '../Equipo/EquipoNavbar';
 
 const EquipoPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +18,7 @@ const EquipoPage = () => {
       <Navbar toggle={toggle} />
       <Equipo />
       <Footer />
+      
     </>
   );
 };
