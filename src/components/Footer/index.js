@@ -1,5 +1,7 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
+import './Footer.css';
+import { Button } from './Button';
 
 import {
   FaFacebook,
@@ -26,7 +28,31 @@ const Footer = () => {
   };
 
   return (
+    
     <FooterContainer>
+
+    < section className='footer-subscription'>
+      <p className='footer-subscription-heading'>
+        Para recibir más información suscríbete
+      </p>
+      <p className='footer-subscription-text'>
+        Podrás eliminar la subscripción cuando quieras
+      </p>
+      <div className='input-areas'>
+        <form>
+          <input
+            className='footer-input'
+            name='email'
+            type='email'
+            placeholder='siro3d@gmail.com'
+          />
+          <Button buttonStyle='btn--outline'>Subscríbete</Button> 
+        </form>
+      </div>
+    </section>
+
+
+
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>

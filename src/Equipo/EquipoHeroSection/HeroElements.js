@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 import { Link as LinkR } from 'react-router-dom';
 
-export const EquipoContainer = styled.div`
+export const HeroContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ export const EquipoContainer = styled.div`
   }
 `;
 
-export const EquipoBg = styled.div`
+export const HeroBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -48,7 +48,7 @@ export const VideoBg = styled.video`
   background: #232a34;
 `;
 
-export const EquipoContent = styled.div`
+export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -58,7 +58,7 @@ export const EquipoContent = styled.div`
   align-items: center;
 `;
 
-export const EquipoH1 = styled.h1`
+export const HeroH1 = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
@@ -72,7 +72,7 @@ export const EquipoH1 = styled.h1`
   }
 `;
 
-export const EquipoP = styled.p`
+export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
@@ -88,7 +88,7 @@ export const EquipoP = styled.p`
   }
 `;
 
-export const EquipoBtnWrapper = styled.div`
+export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,9 @@ export const ArrorRight = styled(MdKeyboardArrowRight)`
   font-size: 20px;
 `;
 
-export const EquipoBtnLink = styled(LinkR)`
+
+
+export const BtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
@@ -122,25 +124,5 @@ export const EquipoBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
-  }
-`;
-
-
-export const EquipoCard = styled.div`
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border-radius: 10px;
-  max-height: 340px;
-  padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
-
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
   }
 `;
