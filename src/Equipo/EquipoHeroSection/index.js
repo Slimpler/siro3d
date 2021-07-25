@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-
+import styled from 'styled-components'
 import Video from '../../videos/video.mp4';
 import { Button } from '../../components/ButtonElements'
+import Icon1 from '../../images/carlos.png';
+import Icon2 from '../../images/nico.png';
+import Icon3 from '../../images/juan.jpg';
 
 import {
   HeroContainer,
@@ -16,6 +19,17 @@ import {
   ArrorRight, */
 } from './HeroElements';
 
+import {
+  ServicesContainer,
+  ServicesH1,
+  ServicesWrapper,
+  ServicesCard,
+  ServicesIcon,
+  ServicesH2,
+  ServicesP,
+}
+from '../../components/Productos/ServicesElements';
+
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
 
@@ -24,13 +38,34 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer id='home'>
-     
-      <HeroContent>
-       
-      </HeroContent>
-    </HeroContainer>
+    <ServicesContainer id='equipo'>
+      <ServicesH1>Equipo Siro 3D</ServicesH1>
+      <ServicesWrapper>
+        <ServicesCard>
+          <ServicesIcon src={Icon1} />
+          <ServicesH2>Carlos Zamora</ServicesH2>
+          <ServicesP>
+            Lider del proyecto Siro 3D
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon2} />
+          <ServicesH2>Nicolás Delgado</ServicesH2>
+          <ServicesP>
+            Web designer
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>Juanito Perez</ServicesH2>
+          <ServicesP>
+            Gerente de proyecto
+          </ServicesP>
+        </ServicesCard>
+      </ServicesWrapper>
+    </ServicesContainer>
   );
 };
 
 export default HeroSection;
+

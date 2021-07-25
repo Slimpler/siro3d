@@ -30,7 +30,6 @@ const Footer = () => {
   return (
     
     <FooterContainer>
-
     < section className='footer-subscription'>
       <p className='footer-subscription-heading'>
         Para recibir más información suscríbete
@@ -50,58 +49,55 @@ const Footer = () => {
         </form>
       </div>
     </section>
-
-
-
-      <FooterWrap>
-        <SocialMedia>
-          <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>
-              Siro 3D
-            </SocialLogo>
-            <WebsiteRights>
-              Siro 3D &copy; {new Date().getFullYear()} All rights reserved.
-            </WebsiteRights>
-            <SocialIcons>
-              {/* <SocialIconLink
-                href='//www.facebook.com/'
-                target='_blank'
-                aria-label='Facebook'
-              >
-                 <FaFacebook />
-              </SocialIconLink> */}
-              <SocialIconLink
-                href='https://www.instagram.com/siro.3d/'
-                target='_blank'
-                aria-label='Instagram'
-              > 
-                <FaInstagram />
-              </SocialIconLink>
-              {/* <SocialIconLink
-                href='//www.youtube.com/'
-                target='_blank'
-                aria-label='Youtube'
-              >
-                <FaYoutube />
-              </SocialIconLink> */}
-              <SocialIconLink
-                href='https://twitter.com/d_siro3?lang=es'
-                target='_blank'
-                aria-label='Twitter'
-              > 
-                <FaTwitter /> 
-              </SocialIconLink>
-              <SocialIconLink
-                href='https://es.linkedin.com/in/carlos-flores-zamora-73720a166'
-                target='_blank'
-                aria-label='Linkedin'
-              >
-                <FaLinkedin />
-              </SocialIconLink>
-            </SocialIcons>
-          </SocialMediaWrap>
-        </SocialMedia>
-      </FooterWrap>
+    <FooterWrap>
+      <SocialMedia>
+        <SocialMediaWrap>
+          <SocialLogo to='/' onClick={toggleHome}>
+            Siro 3D
+          </SocialLogo>
+          <WebsiteRights>
+            Siro 3D &copy; {new Date().getFullYear()} All rights reserved.
+          </WebsiteRights>
+          <SocialIcons>
+            {/* <SocialIconLink
+              href='//www.facebook.com/'
+              target='_blank'
+              aria-label='Facebook'
+            >
+                <FaFacebook />
+            </SocialIconLink> */}
+            <SocialIconLink
+              href='https://www.instagram.com/siro.3d/'
+              target='_blank'
+              aria-label='Instagram'
+            > 
+              <FaInstagram />
+            </SocialIconLink>
+            {/* <SocialIconLink
+              href='//www.youtube.com/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <FaYoutube />
+            </SocialIconLink> */}
+            <SocialIconLink
+              href='https://twitter.com/d_siro3?lang=es'
+              target='_blank'
+              aria-label='Twitter'
+            > 
+              <FaTwitter /> 
+            </SocialIconLink>
+            <SocialIconLink
+              href='https://es.linkedin.com/in/carlos-flores-zamora-73720a166'
+              target='_blank'
+              aria-label='Linkedin'
+            >
+              <FaLinkedin />
+            </SocialIconLink>
+          </SocialIcons>
+        </SocialMediaWrap>
+      </SocialMedia>
+    </FooterWrap>
     </FooterContainer>
   );
 };

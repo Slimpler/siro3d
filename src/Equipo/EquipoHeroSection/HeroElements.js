@@ -105,8 +105,6 @@ export const ArrorRight = styled(MdKeyboardArrowRight)`
   font-size: 20px;
 `;
 
-
-
 export const BtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
@@ -126,3 +124,4 @@ export const BtnLink = styled(LinkR)`
     color: #010606;
   }
 `;
+

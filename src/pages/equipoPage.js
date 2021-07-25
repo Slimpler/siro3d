@@ -18,7 +18,6 @@ const EquipoPage = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <EquipoHeroSection />
-    
       <Footer />
       
     </>
