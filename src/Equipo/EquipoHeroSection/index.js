@@ -39,13 +39,13 @@ const HeroSection = () => {
 
   return (
     <ServicesContainer id='equipo'>
-      <ServicesH1>Equipo Siro 3D</ServicesH1>
+      <ServicesH1>Equipo Alenma</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
           <ServicesH2>Carlos Zamora</ServicesH2>
           <ServicesP>
-            Lider del proyecto Siro 3D
+            Lider del proyecto Alenma
           </ServicesP>
         </ServicesCard>
         <ServicesCard>

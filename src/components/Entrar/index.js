@@ -20,10 +20,10 @@ const Entrar = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">Siro 3D</Icon>
+          <Icon to="/">Alenma</Icon>
           <FormContent>
             <Form action="#">
-              <FormH1>Siro 3D</FormH1>
+              <FormH1>Alenma</FormH1>
               <FormLabel htmlFor="email">Correo</FormLabel>
               <FormInput type="email" id="email" placeholder="Ej: carlos@gmail.com" required />
               <FormLabel htmlFor="password">Contraseña</FormLabel>

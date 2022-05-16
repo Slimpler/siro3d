@@ -3,10 +3,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '¿Qué es Siro 3D?',
+  topLine: '¿Qué es Alenma?',
   headline: 'Impresión 3D',
   description:
-    'El proyecto Siro 3D apuesta por incorporar la tecnología de impresión 3D en los institutos permitiendo la interacción directa de profesores y alumnos bajo la supervisión de un especialista en la tecnología',
+    'El proyecto Alenma apuesta por incorporar la tecnología de impresión en los institutos permitiendo la interacción directa de profesores y alumnos bajo la supervisión de un especialista en la tecnología',
   buttonLabel: 'Get started',
   imgStart: false,
   img: require('../../images/svg-1.svg').default,
@@ -39,7 +39,7 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Impresoras 3D FDM Ender 3',
+  topLine: 'Impresoras FDM Ender 3',
   headline: '',
   description:
     "Confiamos en esta marca ya que llevamos más de 4 años trabajando con sus impresoras dando una calidad de impresión envidiable para cualquier impresora a nivel usuario. Su calidad junto a su funcionamiento nos sigue sorprendiendo y desde hace dos años está en el top ventas del mercado.",

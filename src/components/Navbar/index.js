@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to='/' onClick={toggleHome}>
-              Siro 3D
+              Alenma
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

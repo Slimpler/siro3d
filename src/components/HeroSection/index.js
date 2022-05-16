@@ -29,7 +29,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Siro Impresión 3D</HeroH1>
+        <HeroH1>Alenma Impresión 3D</HeroH1>
         <HeroP>
           La impresión del futuro, ahora y en tus manos
         </HeroP>

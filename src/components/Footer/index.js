@@ -43,7 +43,7 @@ const Footer = () => {
             className='footer-input'
             name='email'
             type='email'
-            placeholder='siro3d@gmail.com'
+            placeholder='Alenma3d@gmail.com'
           />
           <Button buttonStyle='btn--outline'>Subscríbete</Button> 
         </form>
@@ -53,10 +53,10 @@ const Footer = () => {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/' onClick={toggleHome}>
-            Siro 3D
+            Alenma
           </SocialLogo>
           <WebsiteRights>
-            Siro 3D &copy; {new Date().getFullYear()} All rights reserved.
+            Alenma &copy; {new Date().getFullYear()} All rights reserved.
           </WebsiteRights>
           <SocialIcons>
             {/* <SocialIconLink
@@ -67,7 +67,7 @@ const Footer = () => {
                 <FaFacebook />
             </SocialIconLink> */}
             <SocialIconLink
-              href='https://www.instagram.com/siro.3d/'
+              href='https://www.instagram.com/Alenma.3d/'
               target='_blank'
               aria-label='Instagram'
             > 
@@ -81,7 +81,7 @@ const Footer = () => {
               <FaYoutube />
             </SocialIconLink> */}
             <SocialIconLink
-              href='https://twitter.com/d_siro3?lang=es'
+              href='https://twitter.com/d_Alenma3?lang=es'
               target='_blank'
               aria-label='Twitter'
             > 
